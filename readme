@@ -1,0 +1,1 @@
+A movie app fetching from the OMDB API. You can search for a movie and put it into your watchlist and remove it later and I did that by using localStorage. 
