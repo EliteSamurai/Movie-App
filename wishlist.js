@@ -8,7 +8,7 @@ if(mov.length){
     innerMovies.style.display = 'none'
 
     for (let movie of mov){
-        document.getElementById('movies').innerHTML += `<section class="container">
+        document.getElementById('movies').innerHTML += `<section class="container" style="border-bottom: 1.5px solid #fff;">
                                         <img id="poster" src=${movie.Image}>
 
                                     <section class="mini-con">
