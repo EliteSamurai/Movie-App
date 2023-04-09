@@ -10,7 +10,7 @@ window.listSearch = listSearch
 function listSearch(){
     moviesHtml.innerHTML = ''
 
-    fetch(`http://www.omdbapi.com/?apikey=3316351c&s=${searchTitle.value}`)
+    fetch(`https://www.omdbapi.com/?apikey=3316351c&s=${searchTitle.value}`)
         .then(req => req.json())
         .then(data => {
             if(data.Response === 'False'){
