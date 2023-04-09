@@ -25,7 +25,7 @@ function listSearch(){
                 }
 
                 for (let i = 0; i < final.length; i++){
-                    fetch(`http://www.omdbapi.com/?apikey=3316351c&i=${final[i]}`)
+                    fetch(`https://www.omdbapi.com/?apikey=3316351c&i=${final[i]}`)
                         .then(req => req.json())
                         .then(data =>  {
                             const movieData = {
